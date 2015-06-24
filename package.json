@@ -1,18 +1,18 @@
 {
   "name": "goh",
-  "version": "0.6.4",
+  "version": "0.6.2",
   "description": "Just a blogging platform on heroku",
   "private": true,
   "dependencies": {
-    "ghost": "0.6.4",
-    "ghost-cloudinary-store": "latest",
+    "ghost": "0.6.2",
+    "ghost-cloudinary-store": "1.0.2",
     "pg": "latest"
   },
   "engines": {
-    "node": "~0.10.0 || ~0.12.0"
+    "node": "~0.10.0"
   },
   "scripts": {
-    "start": "node index"
+    "start": "node server.js"
   },
   "license": "MIT"
 }
