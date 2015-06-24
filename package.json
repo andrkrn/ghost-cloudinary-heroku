@@ -8,6 +8,9 @@
     "ghost-cloudinary-store": "latest",
     "pg": "latest"
   },
+  "engines": {
+    "node": "~0.10.0"
+  },
   "scripts": {
     "start": "node server.js"
   },
