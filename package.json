@@ -12,7 +12,8 @@
     "node": "~0.10.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "install": "npm install --prefix ./content/storage/ghost-cloudinary-store/"
   },
   "license": "MIT"
 }
