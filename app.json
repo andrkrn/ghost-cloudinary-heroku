@@ -1,0 +1,29 @@
+{
+  "name": "Ghost on Heroku",
+  "description": "Just a blogging platform",
+  "logo": "https://raw.githubusercontent.com/TryGhost/Ghost/master/core/client/public/assets/img/large.png",
+  "repository": "https://github.com/cobyism/ghost-on-heroku",
+  "success_url": "/ghost",
+  "addons": [
+    "heroku-postgresql",
+    "mandrill"
+  ],
+  "env": {
+    "HEROKU_URL": {
+      "description": "The URL of this Heroku app.",
+      "value": "http://YOURAPPNAME.herokuapp.com"
+    },
+    "CLOUDINARY_CLOUD_NAME": {
+      "description": "Set your cloud name to enable Cloudinary file storage. Leave blank to disable file uploads.",
+      "required": false
+    },
+    "CLOUDINARY_API_KEY": {
+      "description": "Cloudinary API KEY, if using Cloudinary file storage.",
+      "required": false
+    },
+    "CLOUDINARY_API_SECRET": {
+      "description": "Cloudinary API SECRET, if using Cloudinary file storage.",
+      "required": false
+    }
+  }
+}

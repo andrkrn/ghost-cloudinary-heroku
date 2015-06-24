@@ -1,0 +1,15 @@
+{
+  "name": "goh",
+  "version": "0.6.4",
+  "description": "Just a blogging platform on heroku",
+  "private": true,
+  "dependencies": {
+    "ghost": "0.6.4",
+    "ghost-cloudinary-store": "latest",
+    "pg": "latest"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
