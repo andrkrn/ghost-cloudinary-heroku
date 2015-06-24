@@ -55,6 +55,15 @@ config = {
   // Development
   development: {
     url: 'http://localhost:2368',
+    fileStorage: true,
+    storage: {
+      active: 'ghost-cloudinary-store',
+      'ghost-cloudinary-store': {
+          cloud_name: 'andrikurnia',
+          api_key:    '246562873848793',
+          api_secret: 'mZjbn7HB23nO_Gv3AseLvJwdTbE'
+      }
+    },
     database: {
       client: 'sqlite3',
       connection: {
