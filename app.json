@@ -1,8 +1,8 @@
 {
-  "name": "Ghost on Heroku",
+  "name": "Ghost on Heroku with Cloudinary",
   "description": "Just a blogging platform",
   "logo": "https://raw.githubusercontent.com/TryGhost/Ghost/master/core/client/public/assets/img/large.png",
-  "repository": "https://github.com/cobyism/ghost-on-heroku",
+  "repository": "https://github.com/andrkrn/ghost-cloudinary-heroku",
   "success_url": "/ghost",
   "addons": [
     "heroku-postgresql",
