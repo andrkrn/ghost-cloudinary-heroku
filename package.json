@@ -1,19 +1,18 @@
 {
   "name": "ghost-cloudinary-on-heroku",
-  "version": "0.6.4",
+  "version": "0.7.2",
   "description": "Just a blogging platform on heroku",
   "private": true,
   "dependencies": {
-    "ghost": "0.6.4",
-    "ghost-cloudinary-store": "1.0.2",
+    "ghost": "0.7.2",
+    "ghost-cloudinary-store": "1.1.1",
     "pg": "latest"
   },
   "engines": {
     "node": "~0.10.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "install": "npm install --prefix ./content/storage/ghost-cloudinary-store/"
+    "start": "node server.js"
   },
   "license": "MIT"
 }
